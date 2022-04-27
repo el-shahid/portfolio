@@ -14,13 +14,14 @@
     background-color: #191919;
 }
 
-.back img {
-    width: 100%;
+img {
+    width: 50%;
     background-repeat: no-repeat;
-    border-style: solid;
     border-color: #191919;
-    border-radius: 3rem;
-    border-width: 0.5rem;
+    border-radius: 20rem;
+    float: right;
+    padding-right: 0.5rem;
+    vertical-align: middle;
 }
 
 nav {
@@ -80,25 +81,26 @@ nav ul li a:hover {
 
 .content {
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 4%;
     transform: translateY(-50%);
+    display: flex;
 }
 
 h1 {
-    color: black;
+    color: white;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
 
 h3 {
-    color: black;
+    color: white;
     font-size: 25px;
     margin-bottom: 50px;
 }
 
 h4 {
-    color: black;
+    color: white;
     letter-spacing: 2px;
     font-size: 20px;
 }
