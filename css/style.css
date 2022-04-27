@@ -120,7 +120,7 @@ h4 {
     border-radius: 30px;
 }
 
-.newslatter form input:last-child {
+.newslatter form #sub {
     position: absolute;
     display: inline-block;
     outline: none;
@@ -129,9 +129,18 @@ h4 {
     border-radius: 30px;
     background-color: #f9004d;
     color: white;
-    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    box-shadow: 0px 0px 5px #000, 0px 0px 10px #858585;
     top: 6px;
     right: 6px;
+}
+
+.newslatter form #sub:hover {
+    box-shadow: none;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: .3s;
 }
 
 .about {
