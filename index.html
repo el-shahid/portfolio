@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
 
-
 </head>
 
 <body>
@@ -38,14 +37,13 @@
 
             <div class="back">
                 <img src="img/main-img.jpg" alt="Avatar">
-                <h4>Hello, my name is</h4>
-                <h1>Ahmed <span>EL-Shahid</span></h1>
-                <h3>I'am a Web Designer.</h3>
+                <h4>Hello, </h4>
+                <h1>I'm <span class="typed"> </span></h1>
+                <h3>Follow Me To Learn.</h3>
 
                 <div class="newslatter">
                     <form>
-                        <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-                        <input type="submit" name="submit" value="Lets Start">
+                        <input type="submit" name="submit" value="Lets Start" id="sub">
                     </form>
 
                 </div>
@@ -129,6 +127,16 @@
         </div>
         <p class="end">CopyRight By Ahmed EL-Shahid</p>
     </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".typed", {
+            strings: [".", "Ahmed ELShahid", "Web Designer", "Youtuber", "Programmer"],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
 </body>
 
 </html>
