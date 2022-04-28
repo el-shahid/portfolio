@@ -18,8 +18,9 @@ img {
     width: 50%;
     background-repeat: no-repeat;
     border-color: #191919;
-    border-radius: 20rem;
+    /* border-radius: 20rem; */
     float: right;
+    margin-top: -10rem;
     padding-right: 0.5rem;
     vertical-align: middle;
 }
